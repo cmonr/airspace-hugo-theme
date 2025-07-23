@@ -95,6 +95,11 @@
 // Portfolio Single Page
 .portfolio-single-page {
   .project-details {
+    position: fixed;
+    width: 300px;
+    z-index: 5;
+    float: left;
+
     h4 {
       margin-bottom: 20px;
       padding-bottom: 10px;

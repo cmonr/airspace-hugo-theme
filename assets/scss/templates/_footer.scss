@@ -1,8 +1,15 @@
 .footer {
   background: darken( $light, 1.5);
-  min-height: 205px;
   text-align: center;
-  padding-top: 67px;
+  //padding-top: 67px;
+
+  position: fixed;
+  min-height: 32px;
+  z-index: 9999;
+  width: 100%;
+  left: 0px;
+  bottom: 0px;
+
   p {
     font-size: 13px;
     line-height: 25px;

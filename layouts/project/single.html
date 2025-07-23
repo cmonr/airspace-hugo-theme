@@ -7,22 +7,28 @@
 <section class="portfolio-single-page section-sm">
   <div class="container">
     <div class="row">
-      <div class="col-md-8">
-        {{ with .Params.image }}
-        <img class="img-responsive w-100" src="{{ . | relURL }}" alt="">
-        {{ end }}
-      </div>
       <div class="col-md-4">
         <div class="project-details">
-          <h4>Project Details</h4>
+          <h2>{{ .Title }}</h2>
+          {{ .Content }}
+          <!--
+          <h4>{{ .Params.description }}</h4>
           <ul>
             {{ range .Params.information }}
             <li><span>{{ .label }} :</span> <strong>{{ .info | markdownify }}</strong></li>
             {{ end }}
           </ul>
+          -->
         </div>
       </div>
+      <div class="col-md-8">
+        {{ with .Params.image }}
+        <img class="img-responsive w-100" src="{{ . | relURL }}" alt="">
+        {{ end }}
+      </div>
     </div>
+
+    <!--
     <div class="row">
       <div class="col-md-12">
         <div class="project-content mt-50">
@@ -30,6 +36,7 @@
         </div>
       </div>
     </div>
+    -->
   </div>
 </section>
 
