@@ -1,7 +1,7 @@
 ---
 title: "Service"
 description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+bg_image: "img/feature-bg.jpg"
 layout: "service"
 draft: false
 
@@ -17,7 +17,7 @@ about:
           consequatur sapiente assumenda, officia voluptas quas numquam placeat, alias molestias nisi laudantium
           nesciunt perspiciatis suscipit hic voluptate corporis id distinctio earum. Dolor reprehenderit fuga dolore
           officia adipisci neque!"
-  image : "images/company/company-group-pic.jpg"
+  image : "img/company/company-group-pic.jpg"
 
 
 ########################## featured service ############################

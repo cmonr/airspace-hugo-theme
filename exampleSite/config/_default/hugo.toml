@@ -51,7 +51,7 @@ resampleFilter = "lanczos"
 
 ############################# Caches ###############################
 [caches]
-[caches.images]
+[caches.img]
 dir = ":resourceDir/_gen"
 maxAge = "720h"
 

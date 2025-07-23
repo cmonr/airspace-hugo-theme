@@ -1,7 +1,7 @@
 ---
 title: "Über uns"
 description: "this is meta description"
-bg_image: "images/feature-bg.jpg"
+bg_image: "img/feature-bg.jpg"
 layout: "about"
 draft: false
 
@@ -9,7 +9,7 @@ draft: false
 ################################## About #####################################
 about:
   enable : true
-  image : "images/company/about.jpg"
+  image : "img/company/about.jpg"
   title : "We strive to be the best and <br> make awesome work."
   content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius enim, accusantium repellat ex autem numquam iure officiis facere vitae itaque.
 
